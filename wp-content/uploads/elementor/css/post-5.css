@@ -1,0 +1,39 @@
+.elementor-kit-5{--e-global-color-primary:#00358E;--e-global-color-secondary:#F1F6FF;--e-global-color-text:#000000;--e-global-color-accent:#FFFFFF;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto";--e-global-typography-secondary-font-weight:500;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-size:16px;--e-global-typography-text-font-weight:normal;--e-global-typography-text-line-height:25px;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;color:#000000;font-family:"Roboto", Sans-serif;font-size:16px;line-height:25px;}.elementor-kit-5 a{color:#00358E;font-size:16px;}.elementor-kit-5 a:hover{text-decoration:underline;}.elementor-kit-5 h3{font-family:"Roboto", Sans-serif;font-weight:500;}.elementor-kit-5 h4{font-size:28px;}.elementor-kit-5 h5{font-size:18px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start custom CSS */.elementor img {
+    margin: auto;
+}
+
+.elementor-button {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border: 1px solid transparent;
+}
+
+.elementor-button:hover,
+.elementor-button:active {
+    color: #000 !important;
+}
+
+.elementor-button:hover:after {
+    height: 260%;
+    opacity: 1;
+}
+
+.elementor-button:after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}/* End custom CSS */
